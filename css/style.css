@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+
+.menu ul li a{
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 6px;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+
+
+}
+.menu ul li a:hover{
+    color: #1B5FC1;
+}
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #1B5FC1;
+    transition:width .3;
+
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition:width .3;
+
+}
+.callus{
+    
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+.zecodeek-footer{
+    background-image: url("../images/footerbackground.png");
+    padding-top: 50px;
+    margin-top: 50px;
+    z-index: 1;
+}
+.footer-menu{
+    margin-top: 110px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.scrollup{
+    margin-left: 50px;
+    z-index: 2;
+    
+}
+.heromenu{
+    margin-top: 250px;
+}
+.herop1{
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1B5FC1;
+}
+.herop2{
+    font-family: 'Oswald';
+
+    color: #000000;
+}
+.herop3{
+    font-family: 'Acumin Pro';
+    color: rgba(0, 0, 0, 0.68);
+}
+.aboutdetails{
+    margin-top: 150px;
+   
+    
+}
+.aboutimg{
+    width: 638px;
+    height: 638px;
+    left: 0px;
+}
+.workprocessimg{
+    width: 1160px;
+    height: 359px;
+    left: 5px;
+}
+.CompanyLogos{
+    margin-top: 110px;
+    padding-right: 10px;
+}
