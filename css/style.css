@@ -2,6 +2,17 @@
 	margin: 0;
     padding: 0;
 }
+.zecodeek-navbar{
+    background-color: #F5F8F7;
+}
+.navbarimg{
+    height: 68.58988952636719px;
+    width: 68.60926818847656px;
+    margin-left: 0.69384765625px;
+    top: 0px;
+    border-radius: 0px;
+
+}
 
 .menu ul li a{
     font-family: 'Acumin Pro';
@@ -33,6 +44,159 @@
     transition:width .3;
 
 }
+.heroleft{
+    margin-top: 250px;
+    width: 574px;
+    height: 291px;
+    margin-left:30px;
+}
+.heroright{
+    /* width: 650px;
+    height: 650px; */
+}
+.herop1{
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1B5FC1;
+}
+.herop2{
+    font-family: 'Oswald';
+
+    color: #000000;
+}
+.herop3{
+    font-family: 'Acumin Pro';
+    color: rgba(0, 0, 0, 0.68);
+}
+.services{
+    background-color: #E5E5E5;
+}
+.serviceheader{
+     margin-left: 20px;
+     margin-top: 20px;
+
+}
+.servicedetail .text2{
+    text-decoration: none;
+    color: #1B5FC1;
+}
+.servicedetail .text2:hover{
+    color:#16A560;
+    text-decoration: underline;
+}
+
+.aboutdetails{
+    margin-top: 150px;
+    margin-left: 15px;
+   
+    
+}
+.aboutimg{
+    width: 638px;
+    height: 638px;
+    
+}
+.workprocess{
+    background-color: #E5E5E5;
+}
+.workprocessheader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.workprocessimg{
+    width: 1160px;
+    height: 359px;
+    margin-left: 5px;
+    margin-bottom: 60px;
+}
+.portfolio{
+    background-color: #E5E5E5;
+}
+.portfolioheader{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.CompanyLogos{
+    margin-top: 110px;
+    padding-right: 10px;
+    margin-bottom: 70px;
+}
+.contactus{
+    /* margin-top: 110px; */
+    
+}
+.contactheader{
+    /* margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 550px; */
+}
+.contactright{
+    /* margin-left: 40px;
+    width: 733px;
+    height: 889px; */
+}
+.contactimg{
+    width: 110px;
+    height: 90px;
+}
+.contactusleft{
+    width: 497.83px;
+    height: 442.52px;
+}
+.contact-form{
+    /* margin-top: 30px; */
+}
+
+#Message{
+    width: 680px;
+    height: 160px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#Subject{
+    width: 680px;
+    height: 60px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#Name{
+    width: 325px;
+    height: 60px;
+    border: 1px solid #1B5FC1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#Email{
+    width: 325px;
+    height: 60px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: -30px;
+}
+/* .contactus{
+    background-color: #1B5FC1;
+} */
+.btn{
+    color: white;
+    background-color: #1B5FC1;
+    width: 200px;
+    height: 60px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    align-items: center;
+    font-family: 'Oswald';
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+.submit{
+    margin-left: -35px;
+}
+
 .callus{
     
     list-style: none;
@@ -42,7 +206,7 @@
 .zecodeek-footer{
     background-image: url("../images/footerbackground.png");
     padding-top: 50px;
-    margin-top: 50px;
+    /* margin-top: 20px; */
     z-index: 1;
 }
 .footer-menu{
@@ -61,91 +225,4 @@
     margin-top: -120px;
     z-index: 2;
     
-}
-.heromenu{
-    margin-top: 250px;
-}
-.herop1{
-    font-family: 'Acumin Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    color: #1B5FC1;
-}
-.herop2{
-    font-family: 'Oswald';
-
-    color: #000000;
-}
-.herop3{
-    font-family: 'Acumin Pro';
-    color: rgba(0, 0, 0, 0.68);
-}
-.aboutdetails{
-    margin-top: 150px;
-   
-    
-}
-.aboutimg{
-    width: 638px;
-    height: 638px;
-    left: 0px;
-}
-.workprocessimg{
-    width: 1160px;
-    height: 359px;
-    left: 5px;
-}
-.CompanyLogos{
-    margin-top: 110px;
-    padding-right: 10px;
-    margin-bottom: 70px;
-}
-.contactus{
-    margin-top: 110px;
-    
-}
-.contactusdetail{
-    margin-left: 40px;
-}
-
-#Message{
-    width: 580px;
-    height: 160px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-#Subject{
-    width: 580px;
-    height: 50px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-#Name{
-    width: 285px;
-    height: 50px;
-    border: 1px solid #1B5FC1;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-#Email{
-    width: 290px;
-    height: 50px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-.btn{
-    color: white;
-    background-color: #1B5FC1;
-    width: 200px;
-    height: 60px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    align-items: center;
-    font-family: 'Oswald';
-    font-weight: 400;
-    margin-top: 20px;
-}
-.submit{
-    margin-left: 382px;
 }
